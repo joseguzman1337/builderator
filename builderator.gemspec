@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'rake', '~> 13.2.1'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop', '~> 0.49'
   spec.add_development_dependency 'thor-scmversion', '1.7.0'
@@ -38,4 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'ignorefile'
   spec.add_dependency 'thor', '~> 1.0.1'
   spec.add_dependency 'retryable', '~> 3.0.5'
+  spec.add_dependency 'ffi', '1.16.0'
 end
